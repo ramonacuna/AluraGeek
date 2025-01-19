@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <header>
+        <img 
+            src="./img/pixel_Corazones.png" 
+            alt="Logo del header"
+        >
+        <h1>AluraGeek</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card-container">
+                <h2>MIS PRODUCTOS:</h2>
+                <div class="cards"> 
+                </div>
+            </div>
+            <div class="form-container">
+                <h2>AGREGAR<br>
+                    PRODUCTO:</h2>
+                <h2></h2>
+                <form data-formulario>   
+                    <input placeholder="Nombre..." type="text" id="nombre" name="name" required>
+
+                    <input placeholder="Precio..." type="text" id="precio" name="precio"  required>
+                    
+                    <input placeholder="Imagen..." type="text" id="imagen" name="imagen" required></input>
+    
+                    <div class="button-container">
+                        <button class="boton-enviar" type="submit">Enviar</button>
+                        <button class="boton-limpiar" type="reset">Limpiar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <img 
+                src="./img/pixel_Corazones.png" 
+                alt="Imagen del footer" 
+            >
+            <p>AluraGeek</p>
+        </div>
+        <p class="additional-text-1">Desarrollado por Ramon Acuña</p>
+        <p class="additional-text">Alura Latam 2025</p>
+    </footer>
+
+    <script src="./js/listarProductos.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></script>
+    <script src="./js/borrarProducto.js" type ="module"></script>
+</body>
+</html>

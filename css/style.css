@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Mono&display=swap');
+body {
+    margin: 0;
+    font-family: IBM Plex Mono;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 7rem;
+
+}
+header {
+    background-color: #5300c8;
+    width: auto;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+header img {
+    width: 138px;
+    height: 56px;
+    margin-right: 1rem;
+}
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+
+/* Estilo general del contenedor principal */
+.container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center; /* Asegura que los contenedores estén espaciados */
+    flex-wrap: wrap; /* Permite que los contenedores se envuelvan en pantallas pequeñas */
+}
+
+/* Contenedor de las tarjetas */
+.card-container {
+    flex: 1; /* Toma el mismo espacio que el formulario */
+    min-width: 300px;
+    max-width: 940px; /* Asegura que no sea demasiado pequeño */
+}
+
+.card-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card {
+    background: #5d04d9;
+    color: white;
+    width: 196px; /* Tamaño fijo de la tarjeta */
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: start;
+}
+
+.card img {
+    width: 100%;
+    height: 194px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card p {
+    margin-top: 0.5rem;
+    font-size: 14px;
+}
+
+.button-text-container{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card button{
+    background-color: #5d04d9;
+    border: none; 
+    cursor: pointer; 
+}
+
+.boton-eliminar {
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/🦆\ icon\ _trash\ 2_.png'); /* Imagen de fondo */
+    background-size: cover; /* Escalar la imagen para que cubra todo el botón */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat;
+}
+
+/* Estilos para el formulario */
+.form-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 472px;
+}
+
+.form-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input, textarea {
+    min-height: 3rem;
+    padding: 0.5rem;
+    font-size: 16px;
+    border: 3px solid #03318c;
+    border-radius: 50px;
+}
+
+input::placeholder {
+    color: #03318c;
+    font-family: IBM Plex Mono;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    text-align: left;
+}
+.button-container {
+    display: flex;
+    justify-content: center;          
+    gap: 10px;              
+    margin-top: 20px;       /* Espacio superior para separar los botones del formulario */
+}
+
+form button {
+    font-family: IBM Plex Mono;
+    font-weight: 500;
+    line-height: 26px;
+    min-width: 188px;
+    min-height: 55px;
+    padding: 0.5rem;
+    font-size: 16px;
+    border: 3px solid #03318c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boton-enviar{
+    font-size: 20px;
+    color: white;
+    background-color: #03318c;
+}
+
+.boton-limpiar{
+    font-size: 20px;
+    color: #03318c;
+}
+
+.boton-enviar:hover {
+    background-color: #022b7b;
+}
+
+.boton-limpiar:hover {
+    background-color: #898989;
+}
+
+footer {
+    background-color: #5300c8;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer img {
+    width: 138px;
+    height: 56px;
+}
+footer p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+footer .additional-text-1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+}
+footer .additional-text {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.message-default{
+    color:#5300c8;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0;
+}

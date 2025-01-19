@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Nothing Ear",
+      "precio": "US$200",
+      "imagen": "https://i.pinimg.com/736x/10/40/42/104042d58534fcf5f6554e4cf2a81442.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Tocadiscos moderno transparente",
+      "precio": "US$600",
+      "imagen": "https://i.pinimg.com/736x/bd/70/d2/bd70d2da65d66032a5e908a390348de6.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "JBL Tune Flex True Wireless Ghost Edition",
+      "precio": "US$300",
+      "imagen": "https://i.pinimg.com/736x/f8/20/e1/f820e1649c49103a1ac0bc398de36f1c.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "MOJO68 PLASTIC ",
+      "precio": "US$450",
+      "imagen": "https://i.pinimg.com/736x/fe/ec/56/feec5655433924e53b57e9daa47865c8.jpg"
+    },
+    {
+      "nombre": "Lápices De Colores Faber-castell Supersoft X 100",
+      "precio": "140,08",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_840321-MLU74991944440_032024-O.webp",
+      "id": 5
+    },
+    {
+      "nombre": "Tensor Tx800 Shimano Tourney Para 7 Y 8 Velocidades",
+      "precio": "58.590",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_802808-MCO81922764965_012025-O.webp",
+      "id": 6
+    },
+    {
+      "nombre": "Pedales Shimano Pd-m505",
+      "precio": "137.200",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_906467-MLU77981952138_082024-O.webp",
+      "id": 7
+    }
+  ]
+}
